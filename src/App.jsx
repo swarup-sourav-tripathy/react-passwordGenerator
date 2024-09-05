@@ -39,7 +39,7 @@ function App() {
   return (
     <>
       <h1 className='text-4xl text-center text-white'>Password generator</h1>
-      <div className='flex-col justify-center items-center w-2/6 h-20 ml-96 shadow-md rounded-lg px-4 my-8 py-4 text-3xl text-orange-500 bg-gray-700'>Password generator
+      <div className='flex-col justify-center items-center w-fit md:w-2/6 h-20 ml-96 shadow-md rounded-lg px-4 my-8 py-4 text-3xl text-orange-500 bg-gray-700'>Password generator
       <div className="flex shadow rounded-lg overflow-hidden mb-4">
         <input type="text" value={password} className='outline-none w-full h-6 mt-4 py-1 px-3' placeholder='password' readOnly ref={passwordRef}/>
         <button onClick={copyPasswordToClipboard} className='outline-none bg-blue-700 text-white px-3 py-0.5 h-9 mt-4 shrink-0'>Copy</button>
